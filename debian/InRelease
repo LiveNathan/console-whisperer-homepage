@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Components: main
+Date: Wed, 27 Aug 2025 19:31:48 GMT
+Description: Public archive for Vaadin Conveyor POC
+Origin: Vaadin Conveyor POC
+Suite: debian
+MD5Sum:
+ deee2ad94bef5a3b6c09379ef114bc37              1045 Packages
+ 5fe5576d359f05c8f2c52aba5be9d28a               492 Packages.xz
+SHA1:
+ 68e7c36f0b091b5df2c66a0c7b7fd939add5cb48              1045 Packages
+ 433488569486aa7e36a5b9fac98994e6724e4d16               492 Packages.xz
+SHA256:
+ 067c123a38d756039ab33b5240f87d62a691745396e1f507155e00ccb1f9509b              1045 Packages
+ fee1a4b7c1190a1012019e7146e75a5147ad16e04cd18a8d67963daffed8b86e               492 Packages.xz
+SHA512:
+ cbbe5dc2f64bc470533b88340e084ab26abfc0449e67242a6f9d377b2228409470a599b1502fe45932c70c24af50b54d1564b5e305f0d747328b32686c5313ef              1045 Packages
+ 397546872973d86efbdf5f9d870064ea7239e8f9eb80bbfe75f8b43ccbee5458cfc226a95c9f76495fd77a0ecbc9d6261b8c416083d7019fb85c0648567ebb73               492 Packages.xz
+-----BEGIN PGP SIGNATURE-----
+Version: BCPG v1.77.00
+
+iF4EARMIAAYFAmivXSUACgkQcrXldPPBwXmhWwEAyBu8MZ5gH4o2DsQOUGYIQpbG
+ehQpOHzlnRHiG0/7IZwBAKMBXnE0NT7AeXjIlyiAAP6iNXdkz46oBnsoIK13Do1x
+=R4yY
+-----END PGP SIGNATURE-----

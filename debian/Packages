@@ -1,0 +1,29 @@
+Architecture: amd64
+Built-With: Hydraulic Conveyor
+Depends: libasound2t64 | liboss4-salsa-asound2, libc6, libfreetype6, libgcc-s1, libstdc++6, libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g
+Description: Vaadin Conveyor POC
+Installed-Size: 134969
+Maintainer: <nobody@nowhere>
+Package: vaadin-conveyor
+Priority: optional
+Provides: vaadin-conveyor
+Section: misc
+Version: 1.0.0
+Filename: debian/vaadin-conveyor_1.0.0_amd64.deb
+Size: 85267206
+SHA256: 11a2475e99daa8c9f0af73009e0c47dc56504533f7a9513b9e62c405e046bbfc
+
+Architecture: arm64
+Built-With: Hydraulic Conveyor
+Depends: libasound2t64 | liboss4-salsa-asound2, libc6, libfreetype6, libgcc-s1, libstdc++6, libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g
+Description: Vaadin Conveyor POC
+Installed-Size: 133890
+Maintainer: <nobody@nowhere>
+Package: vaadin-conveyor
+Priority: optional
+Provides: vaadin-conveyor
+Section: misc
+Version: 1.0.0
+Filename: debian/vaadin-conveyor_1.0.0_arm64.deb
+Size: 84479392
+SHA256: e5d38be38c29ecc7bafb59b1bce8aa1faea173c5117c3e71a0247db43d72324b
