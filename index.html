@@ -3,10 +3,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-
-
-    <!-- Curious what created these downloads? Check out https://hydraulic.dev -->
     <meta name="generator" content="Conveyor: 19.0"/>
 
     <link rel=icon href="icon.svg" sizes="any" type="image/svg+xml">
@@ -303,7 +299,7 @@
 
                 <!-- Windows -->
 
-                    <a href="vaadin-conveyor.exe" class="download-button" download>
+                    <a class="download-button" download href="https://github.com/LiveNathan/console-whisperer-homepage/releases/download/v0.0.1/vaadin-conveyor.exe">
                         <svg width="2em" height="2em" viewBox="0 0 256 315" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                             <g transform="translate(0,30)">
@@ -360,7 +356,7 @@
                     <br><br>
 
                     <!-- Mac ARM -->
-                    <a class="download-button" href="vaadin-conveyor-0.0.1-mac-aarch64.zip" id="mac-aarch64">
+                    <a class="download-button" href="https://github.com/LiveNathan/console-whisperer-homepage/releases/download/v0.0.1/vaadin-conveyor-0.0.1-mac-aarch64.zip" id="mac-aarch64">
                         <svg width="2em" height="2em" viewBox="0 0 256 315" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" style="overflow:visible;">
                             <g transform="translate(0,-30)">
@@ -453,11 +449,11 @@
                 <p class="smaller-fonts">
 
                         <span class="linux-all">&nbsp;&nbsp; AMD64: &nbsp;&nbsp;</span>
-                        <a class="linux-amd64" download href="vaadin-conveyor-0.0.1-linux-amd64.tar.gz">Download .tar.gz</a>
+                        <a class="linux-amd64" download href="https://github.com/LiveNathan/console-whisperer-homepage/releases/download/v0.0.1/vaadin-conveyor-0.0.1-linux-amd64.tar.gz">Download .tar.gz</a>
 
 
                         <span class="linux-all">&nbsp;&nbsp; ARM64: &nbsp;&nbsp;</span>
-                        <a class="aarch64" download href="vaadin-conveyor-0.0.1-linux-aarch64.tar.gz">Download .tar.gz</a>
+                        <a class="aarch64" download href="https://github.com/LiveNathan/console-whisperer-homepage/releases/download/v0.0.1/vaadin-conveyor-0.0.1-linux-aarch64.tar.gz">Download .tar.gz</a>
 
                 </p>
 
@@ -685,6 +681,14 @@
 
                 // Make the tooltip appear to confirm to the user.
                 var index = document.styleSheets[0].insertRule(".tooltip:before, .tooltip:after { opacity:1; }", document.styleSheets[0].cssRules.length);
+                setTimeout(function() { document.styleSheets[0].removeRule(index) }, 5000);
+            })
+        })
+    </script>
+</div>
+</body>
+</html>
+length);
                 setTimeout(function() { document.styleSheets[0].removeRule(index) }, 5000);
             })
         })
